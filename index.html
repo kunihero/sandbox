@@ -13,9 +13,13 @@
     <meta content="description" property="og:description" />
     <meta content="pageurlimages/ogp.png" property="og:image" />
     <meta content="ja_JP" property="og:locale" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      (window.jQuery || document .write('<script src="js/jquery-3.2.1.min.js"><\/script>')); </script>
+    </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="assets/javascripts/application.js"></script>
-    <link href="assets/stylesheet/application.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/application.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE9]><![endif]-->
     <script src="assets/javascripts/html5.js"></script>
     <!--[if lt IE9]><![endif]-->
@@ -25,14 +29,34 @@
   </head>
 </html>
 <body>
-  <header>
+  <header role="banner">
     <h1>
-      headerです
+      ロゴ
     </h1>
+    <nav role="navigation">
+      <ul>
+        <li>
+          <a href="">link</a>
+        </li>
+        <li>
+          <a href="">link</a>
+        </li>
+      </ul>
+    </nav>
   </header>
-  <main></main><foot>
+  <main role="main">
+    <div class="wrapper">
+      <h2>
+        メインコンテンツ
+      </h2>
+      <p>
+        コンテンツ
+      </p>
+    </div>
+  </main>
+  <footer role="contentinfo">
     <p>
-      footerです
+      フッター
     </p>
-  </foot>
+  </footer>
 </body>
