@@ -1,38 +1,4 @@
 header{
-	background: white;
-	.upper{
-		h1{
-			float: left;
-			width: 300px;
-		}
-		.navi-list{
-			float: right;
-			width: calc(100% - 300px);
-			text-align: right;
-			li{
-				display: inline-block;
-				margin-right: 20px;
-				a{
-					padding: 20px 0;
-					display: block;
-				}
-			}
-		}
-	}
-	.lower{
-		nav{
-			ul{
-				display: table;
-				table-layout: fixed;
-				width: 100%;
-				li{
-					display: table-cell;
-					box-shadow: 0 0 1px #aaa;
-					a{
-						padding: 20px;
-					}
-				}
-			}
-		}
-	}
+  background: #eee;
+  padding: 30px;
 }
